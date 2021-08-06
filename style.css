@@ -1,0 +1,23 @@
+#logo 
+{
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#userInput{
+    display: flex;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center; 
+    margin: auto;
+    padding: 20px;
+}
+
+#greeting{
+    text-align: center; 
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+}
