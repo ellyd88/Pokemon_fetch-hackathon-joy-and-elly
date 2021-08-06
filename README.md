@@ -11,3 +11,5 @@ Today, we will be using our newfound skills to make apps that request data from 
 - Have a nice title
 - Greet user
 - Import images from API
+- Get info for each pokemon
+- display info in lists
