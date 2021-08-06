@@ -42,11 +42,27 @@ async function getPokeData(pokeNum, name){
     //add new li tag to ul
     document.querySelector('#info').appendChild(nameInfo);
     //set inner text of new li to pokeName
-    nameInfo.innerText = pokeName;
+    nameInfo.innerText = `Name: ${pokeName}`;
     // add id
     nameInfo.id = `name${pokeNum}`;
     //add class
     nameInfo.classList = `${name}`;
+
+    //get type
+    //let bulbasaurType = pokeData.types['0'].type.name;
+    let pokeType = data.types['0'].type.name;
+    //create new li tag
+    let typeInfo = document.createElement('li');
+    //add new li tag to ul
+    document.querySelector('#info').appendChild(typeInfo);
+    //set inner text of new li to pokeType
+    typeInfo.innerText = `Type: ${pokeType}`;
+    // add id
+    typeInfo.id = `type${pokeNum}`;
+    //add class
+    typeInfo.classList = `${name}`
+
+    //get weight
 
 }
 
