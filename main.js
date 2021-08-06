@@ -15,7 +15,7 @@ userInput.addEventListener('change', greet);
 
 //Import images from API
 
-async function getPokeData(pokeNum){
+async function getPokeData(pokeNum, name){
 
     //fetch data from API
     const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokeNum}`);
@@ -34,10 +34,24 @@ async function getPokeData(pokeNum){
     //add id
     image.id = `image${pokeNum}`;
 
+    
+    //get name
+    let pokeName = data.species.name;
+    //create new li tag
+    let nameInfo = document.createElement('li');
+    //add new li tag to ul
+    document.querySelector('#info').appendChild(nameInfo);
+    //set inner text of new li to pokeName
+    nameInfo.innerText = pokeName;
+    // add id
+    nameInfo.id = `name${pokeNum}`;
+    //add class
+    nameInfo.classList = `${name}`;
+
 }
 
 //call function for 4 different pokemon
-getPokeData(25);
-getPokeData(1);
-getPokeData(7);
-getPokeData(4);
+getPokeData(25, 'pikachu');
+getPokeData(1, 'bulbasaur');
+getPokeData(7, 'squirtle');
+getPokeData(4, 'charmander');
