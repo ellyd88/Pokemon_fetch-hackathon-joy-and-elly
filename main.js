@@ -31,6 +31,7 @@ async function getPokeData(pokeNum, name){
     image.src = pokeImage;
     //add class
     image.classList = `pokeImages`;
+    image.classList.add(`${name}`);
     //add id
     image.id = `image${pokeNum}`;
 

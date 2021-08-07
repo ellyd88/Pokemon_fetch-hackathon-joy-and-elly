@@ -1,3 +1,9 @@
+body{
+    background-color: black;
+    margin: auto;
+    padding: 5%;
+}
+
 #logo 
 {
     display: flex;
@@ -8,8 +14,8 @@
 
 #userInput{
     display: flex;
-    font-size: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
     text-align: center; 
     margin: auto;
     padding: 20px;
@@ -17,7 +23,42 @@
 
 #greeting{
     text-align: center; 
-    font-size: 30px;
+    color: white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
     margin: auto;
+}
+
+#images{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.pokeImages{
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+}
+
+#listBox{
+    display: flex;
+    justify-content: center;
+    z-index: 20;
+}
+
+#info{
+    display:inline-block;
+    background-color: white;
+    padding: 10px;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    text-justify: auto;
 }
