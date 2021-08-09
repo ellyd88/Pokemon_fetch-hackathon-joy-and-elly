@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: red;
     margin: auto;
     padding: 5%;
 }
@@ -43,13 +43,13 @@ body{
 }
 
 #listBox{
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    top: 1000px;
+    left: 600px;
     z-index: 20;
 }
 
 #info{
-    display:inline-block;
     background-color: white;
     padding: 10px;
     color:black;
