@@ -36,7 +36,7 @@ Today, we will be using our newfound skills to make apps that request data from 
 ### How it looks:
 
 <p align="center" float="left">
-<img src="" width="400" alt="pokemon page"/>
+<img src="./images/pokemonPage.png" width="800" alt="pokemon page"/>
 </p>
 
 ---
