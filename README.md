@@ -31,3 +31,12 @@ Today, we will be using our newfound skills to make apps that request data from 
 
 - Repeat for type and weight of each pokemon
 - Add some CSS to style elements on page
+
+
+### How it looks:
+
+<p align="center" float="left">
+<img src="" width="400" alt="pokemon page"/>
+</p>
+
+---
