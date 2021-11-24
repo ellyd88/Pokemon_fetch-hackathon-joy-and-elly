@@ -23,7 +23,7 @@ async function getPokeData(pokeNum, name){
     const data = await response.json();
 
     //get pokemon image from data
-    let pokeImage = data.sprites.other['official-artwork'].front_default;
+    let pokeImage = data.sprites.other['dream_world'].front_default;
     //create new image tag
     let image = document.createElement('img');
     //add new image tag to images div
@@ -124,7 +124,7 @@ async function getPokeData(pokeNum, name){
     handleMouseEventAll('bulbasaur',1);
     handleMouseEventAll('squirtle',7);
     handleMouseEventAll('charmander',4);
-    
+    handleMouseEventAll('mew',151);
 }
 
 //call function for 4 different pokemon
@@ -132,3 +132,6 @@ getPokeData(25, 'pikachu');
 getPokeData(1, 'bulbasaur');
 getPokeData(7, 'squirtle');
 getPokeData(4, 'charmander');
+getPokeData(151, 'mew');
+
+
